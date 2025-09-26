@@ -1,0 +1,2179 @@
+@media screen and (width <=1336px) {
+    .about-header h2 {
+        padding-left: 50px;
+    }
+}
+
+
+/* Ноутбуки (от 1024px до 1280px) */
+@media screen and (width <=1280px) {
+    .hero-info-text {
+        gap: 30px;
+    }
+
+    .hero-info-text h1 {
+        font-size: 32px;
+        text-wrap: balance;
+    }
+
+    .swipper-wrap {
+        width: 95%;
+    }
+
+    .number-wrap div:nth-child(2) {
+        font-size: 14px;
+    }
+
+    .about-header h2 {
+        font-size: 30px;
+        max-width: 500px;
+    }
+
+    .about-video video {
+        width: 90%;
+    }
+
+    .portfolio-text h2 {
+        font-size: 32px;
+    }
+
+    .services-text h2 {
+        font-size: 32px;
+    }
+
+    .modal-container {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-bottom: 0;
+        box-sizing: border-box;
+    }
+
+    .modal-container ul li {
+        max-width: 400px;
+        font-size: 10px;
+    }
+
+    .modal-mini,
+    .modal-tech,
+    .modal-design {
+        justify-content: space-around;
+        align-items: center;
+        max-width: 700px;
+        box-sizing: border-box;
+        height: 70%;
+        gap: 10px;
+    }
+
+    .modal-personal {
+        max-width: 700px;
+        justify-content: center;
+        align-items: center;
+        height: 40%;
+    }
+
+    .modal-mini h4,
+    .modal-tech h4,
+    .modal-design h4,
+    .modal-personal h4 {
+        width: 400px;
+        font-size: 26px;
+    }
+
+    .modal-text-wrap strong {
+        font-size: 12px;
+    }
+
+    .modal-text-wrap p {
+        font-size: 10px;
+    }
+
+    .modal-img-wrap {
+        margin-top: 0;
+        max-width: 300px;
+        padding-top: 50px;
+    }
+}
+
+/* Планшеты (от 768px до 1024px) */
+@media screen and (width <=1024px) {
+    .nav-links {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+        top: 5px;
+        cursor: pointer;
+    }
+
+    .menu-close {
+        font-size: 40px;
+        top: 25px;
+        left: 40px;
+    }
+
+    .menu a {
+        font-size: 24px;
+        font-family: 'Conforta', sans-serif;
+        ;
+    }
+
+    .hero-info-text {
+        justify-content: space-around;
+    }
+
+    .hero-info-text h1 {
+        font-size: 26px;
+        width: 400px;
+    }
+
+    .hero-info-text p {
+        font-size: 12px;
+        max-width: 400px;
+    }
+
+    .page-number span {
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .page-number::after {
+        left: 25px;
+    }
+
+    .number-wrap div:nth-child(2) {
+        font-size: 12px;
+    }
+
+    .about-header h2 {
+        font-size: 28px;
+    }
+
+    .about-text ul>li {
+        font-size: 10px;
+    }
+
+    .about-btn-wrap {
+        font-size: 12px;
+    }
+
+    .about-btn-wrap a svg {
+        height: 7px;
+    }
+
+    .portfolio-wrap h2 {
+        font-size: 28px;
+        max-width: 400px;
+    }
+
+    .portfolio-text p {
+        font-size: 10px;
+    }
+
+    .portfolio-btn-wrap {
+        margin-right: 20px;
+    }
+
+
+    #btn-pf-all {
+        font-size: 12px;
+    }
+
+    #btn-pf-all svg {
+        height: 7px;
+    }
+
+    .services-proj-wrap {
+        gap: 100px;
+    }
+
+    .servises-text h2 {
+        font-size: 28px;
+    }
+
+    .servises-text p {
+        font-size: 10px;
+    }
+
+    .services-block ul {
+        width: 500px;
+    }
+
+    .services-block li {
+        height: 50px;
+    }
+
+    .services-block li h4 {
+        font-size: 18px;
+        line-height: 2;
+    }
+
+    .quote-wrap {
+        justify-content: space-around;
+    }
+
+    .quote-text {
+        width: 500px;
+        font-size: 10px;
+    }
+
+    .contacts-text-block {
+        width: 400px;
+    }
+
+    .contacts-text-block p {
+        font-size: 10px;
+    }
+
+    .email-wrap form {
+        width: 400px;
+    }
+
+    .logo-wrapper p {
+        width: 200px;
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .footer-main-block {
+        padding-top: 10px;
+    }
+
+    .links-wrap a {
+        font-size: 10px;
+    }
+
+    .socials-wrap a {
+        font-size: 12px;
+    }
+
+    .logo-star span {
+        font-size: 116px;
+    }
+
+    .project-details {
+        max-width: 100%;
+        padding: 0;
+        height: auto;
+        transition: all 0.4s ease-in-out;
+        border-bottom: 1px solid #777;
+        border-top: 1px solid #777;
+    }
+
+    .summary-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .project-details.hovered .summary-toggle {
+        padding: 30px;
+        background: rgba(0, 0, 0, 0.05);
+    }
+
+    .project-details.hovered .summary-info h5 a {
+        color: #999789;
+        font-size: 18px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .summary-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .summary-info {
+        display: flex;
+        flex-direction: column;
+        max-width: 200px;
+        gap: 5px;
+    }
+
+    .summary-info h5 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        font-family: 'OptimaRegular', sans-serif;
+    }
+
+    .summary-info h5 a {
+        text-decoration: none;
+        color: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        position: relative;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .summary-info h5 a:hover {
+        color: #afa49c;
+        font-size: 18px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .summary-info h5 a::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background-color: #7a7a7a;
+        transition: width 0.2s ease-in-out;
+    }
+
+    .summary-info h5 a:hover::after {
+        width: 100%;
+    }
+
+    .summary-info span {
+        color: #7a7a7a;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+    }
+
+    .summary-block {
+        max-width: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .summary-describe {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 500px;
+        gap: 10px;
+    }
+
+    .summary-describe span {
+        border: 1px solid #7a7a7a;
+        text-align: center;
+        border-radius: 100px;
+        width: 200px;
+        height: 34px;
+        font-size: 11px;
+        transition: all 0.3s ease-in-out;
+        line-height: 3;
+        padding: 0;
+    }
+
+    .info-size {
+        color: #7a7a7a;
+        max-width: 500px;
+        margin-top: 30px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .proj-img-wrap {
+        width: 120px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .proj-img-wrap img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 10%;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .project-details.hovered .proj-img-wrap img {
+        width: 120px;
+        height: 120px;
+        transform: scale(1.1);
+    }
+
+    .summary-popup {
+        opacity: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .project-details.hovered .summary-popup {
+        opacity: 1;
+        max-height: 700px;
+    }
+
+    .modal-container {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-bottom: 0;
+        box-sizing: border-box;
+    }
+
+    .modal-container ul li {
+        max-width: 400px;
+        font-size: 10px;
+    }
+
+    .modal-mini,
+    .modal-tech,
+    .modal-design {
+        justify-content: space-around;
+        align-items: center;
+        max-width: 800px;
+        box-sizing: border-box;
+        height: 45%;
+        gap: 10px;
+    }
+
+    .modal-personal {
+        max-width: 700px;
+        justify-content: center;
+        align-items: center;
+        height: 25%;
+    }
+
+    .modal-mini h4,
+    .modal-tech h4,
+    .modal-design h4,
+    .modal-personal h4 {
+        width: 400px;
+        font-size: 26px;
+    }
+
+    .modal-text-wrap strong {
+        font-size: 12px;
+    }
+
+    .modal-text-wrap p {
+        font-size: 10px;
+    }
+
+    .modal-img-wrap {
+        margin-top: 0;
+        max-width: 300px;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (width <=912px) {
+    .hero-info-text h1 {
+        font-size: 20px;
+    }
+
+    .hero-info-text p {
+        font-size: 12px;
+    }
+
+    .page-number span {
+        width: 25px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .number-wrap div:nth-child(2) {
+        font-size: 10px;
+    }
+
+    .about-header h2 {
+        font-size: 18px;
+    }
+
+    .portfolio-text h2 {
+        font-size: 18px;
+    }
+
+
+    .summary-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 5px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .project-details.hovered .summary-info h5 a {
+        color: #999789;
+        font-size: 16px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .summary-info {
+        display: flex;
+        flex-direction: column;
+        max-width: 200px;
+        gap: 5px;
+    }
+
+    .summary-info h5 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        font-family: 'OptimaRegular', sans-serif;
+    }
+
+    .summary-info h5 a {
+        text-decoration: none;
+        color: inherit;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        position: relative;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .summary-info h5 a:hover {
+        color: #afa49c;
+        font-size: 18px;
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .summary-info span {
+        color: #7a7a7a;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 100%;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+    }
+
+    .project-details.hovered .proj-img-wrap img {
+        width: 120px;
+        height: 120px;
+        transform: scale(1.1);
+    }
+
+
+    .servises-text h2 {
+        font-size: 18px;
+    }
+
+    .servises-text p {
+        font-size: 10px;
+    }
+
+    .services-block ul {
+        width: 400px;
+    }
+
+    .quote-wrap {
+        padding: 40px;
+    }
+
+    .quote-one,
+    .quote-two,
+    .quote-three,
+    .quote-four,
+    .quote-five,
+    .quote-six {
+        gap: 20px;
+    }
+
+    .quote-text {
+        width: 400px;
+    }
+
+    .person-testimonial span {
+        font-size: 12px;
+    }
+
+    .contacts-text-block h5 {
+        font-size: 18px;
+    }
+
+    .contacts-text-block p {
+        font-size: 10px;
+    }
+
+    .contact-info {
+        font-size: 14px;
+    }
+
+    .logo-star span {
+        font-size: 108px;
+    }
+
+    .to-top {
+        bottom: 20px;
+        right: 50px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .to-top svg {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media screen and (width <=820px) {
+    .about-header h2 {
+        width: 400px;
+    }
+
+    .portfolio-btn-wrap {
+        margin: 0;
+    }
+
+    .summary-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 5px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .project-details.hovered .summary-toggle {
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.05);
+    }
+
+    .project-details.hovered .summary-info h5 a {
+        color: #999789;
+        font-size: 14px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .summary-info {
+        display: flex;
+        flex-direction: column;
+        max-width: 200px;
+        gap: 5px;
+    }
+
+    .summary-info h5 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        font-family: 'OptimaRegular', sans-serif;
+    }
+
+    .summary-info h5 a {
+        text-decoration: none;
+        color: inherit;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        position: relative;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .summary-info h5 a:hover {
+        color: #afa49c;
+        font-size: 14px;
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .summary-info span {
+        color: #7a7a7a;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 100%;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+    }
+
+    .summary-block {
+        max-width: 500px;
+    }
+
+    .summary-describe {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 500px;
+        gap: 10px;
+    }
+
+    .summary-describe span {
+        border: 1px solid #7a7a7a;
+        text-align: center;
+        border-radius: 100px;
+        width: 120px;
+        height: 30px;
+        font-size: 8px;
+        transition: all 0.3s ease-in-out;
+        line-height: 3.7;
+        padding: 0;
+    }
+
+    .info-size {
+        font-size: 10px;
+        max-width: 400px;
+        text-wrap: balance;
+    }
+
+    .project-details.hovered .proj-img-wrap img {
+        width: 120px;
+        height: 120px;
+        transform: scale(1);
+    }
+
+    .service-img-wrap img {
+        height: auto;
+    }
+
+    .quote-wrap {
+        padding: 20px;
+    }
+
+    .quote-text {
+        font-size: 8px;
+    }
+
+    .contacts-wrapper {
+        gap: 50px;
+    }
+
+    .contacts-wrap {
+        gap: 0;
+    }
+
+    .contacts-text-block {
+        width: 300px;
+    }
+
+    .contact-socials {
+        font-size: 10px;
+    }
+
+    .email-wrap form {
+        width: 300px;
+    }
+
+    .logo-wrapper h4 {
+        font-size: 20px;
+    }
+
+    .logo-wrapper p {
+        font-size: 8px;
+    }
+
+    .logo-star span {
+        font-size: 80px;
+    }
+
+    .modal-container {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-bottom: 0;
+        box-sizing: border-box;
+    }
+
+    .modal-container ul li {
+        max-width: 400px;
+        font-size: 10px;
+    }
+
+    .modal-mini,
+    .modal-tech,
+    .modal-design {
+        justify-content: space-around;
+        align-items: center;
+        max-width: 700px;
+        box-sizing: border-box;
+        height: 50%;
+        gap: 10px;
+    }
+
+    .modal-personal {
+        justify-content: center;
+        align-items: center;
+        height: 30%;
+    }
+
+    .modal-mini h4,
+    .modal-tech h4,
+    .modal-design h4,
+    .modal-personal h4 {
+        width: 400px;
+        font-size: 26px;
+    }
+
+    .modal-text-wrap strong {
+        font-size: 12px;
+    }
+
+    .modal-text-wrap p {
+        font-size: 10px;
+    }
+
+    .modal-img-wrap {
+        margin-top: 0;
+        max-width: 300px;
+        padding-top: 50px;
+    }
+}
+
+/* Смартфоны (от 480px до 768px) */
+@media screen and (width <=768px) {
+
+    .hero-info-text p {
+        max-width: 300px;
+        padding: 0px;
+        font-size: 10px;
+    }
+
+    .about-header h2 {
+        font-size: 16px;
+        width: 300px;
+    }
+
+    .about-text ul {
+        gap: 5px;
+    }
+
+    .about-text ul li {
+        font-size: 8px;
+        padding: 0;
+    }
+
+    .portfolio-text p {
+        max-width: 300px;
+    }
+
+    .summary-info span {
+        line-height: 2;
+    }
+
+    .service-img-wrap {
+        margin-top: 20px;
+    }
+
+    .services-block ul {
+        width: 350px;
+    }
+
+    .services-block ul li {
+        padding: 5px;
+        justify-content: center;
+    }
+
+    .services-block li h4 {
+        font-size: 14px;
+        padding-top: 3px;
+    }
+
+    .services-block li svg:not(button > svg) {
+        height: 30px;
+        width: 30px;
+    }
+
+    .service-img-wrap {
+        margin-top: 0;
+    }
+
+    .quote-text {
+        width: 300px;
+    }
+
+    .contacts-wrapper {
+        gap: 0;
+    }
+
+    .logo-star span {
+        font-size: 77px;
+    }
+
+    .modal-container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 0;
+        box-sizing: border-box;
+    }
+
+    .modal-container ul li {
+        max-width: 400px;
+        font-size: 10px;
+    }
+
+    .modal-mini,
+    .modal-tech,
+    .modal-design {
+        justify-content: space-around;
+        align-items: center;
+        max-width: 600px;
+        box-sizing: border-box;
+        height: 55%;
+        gap: 10px;
+    }
+
+    .modal-personal {
+        max-width: 500px;
+        justify-content: center;
+        align-items: center;
+        height: 35%;
+    }
+
+    .modal-mini h4,
+    .modal-tech h4,
+    .modal-design h4,
+    .modal-personal h4 {
+        width: 400px;
+        font-size: 22px;
+    }
+
+    .modal-text-wrap strong {
+        font-size: 12px;
+    }
+
+    .modal-text-wrap p {
+        font-size: 8px;
+    }
+
+    .modal-img-wrap {
+        margin-top: 0;
+        max-width: 200px;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (height<=768px) {
+    .modal-container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 0;
+        box-sizing: border-box;
+    }
+
+    .modal-container ul li {
+        max-width: 400px;
+        font-size: 10px;
+    }
+
+    .modal-mini,
+    .modal-tech,
+    .modal-design {
+        justify-content: space-around;
+        align-items: center;
+        max-width: 600px;
+        box-sizing: border-box;
+        height: 70%;
+        gap: 10px;
+    }
+
+    .modal-personal {
+        max-width: 500px;
+        justify-content: center;
+        align-items: center;
+        height: 40%;
+    }
+
+    .modal-mini h4,
+    .modal-tech h4,
+    .modal-design h4,
+    .modal-personal h4 {
+        width: 400px;
+        font-size: 22px;
+    }
+
+    .modal-text-wrap strong {
+        font-size: 12px;
+    }
+
+    .modal-text-wrap p {
+        font-size: 8px;
+    }
+
+    .modal-img-wrap {
+        margin-top: 0;
+        max-width: 200px;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (height<=600px) {
+    .modal-container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 0;
+        box-sizing: border-box;
+    }
+
+    .modal-container ul li {
+        max-width: 400px;
+        font-size: 8px;
+    }
+
+    .modal-mini,
+    .modal-tech,
+    .modal-design {
+        justify-content: space-around;
+        align-items: center;
+        max-width: 600px;
+        box-sizing: border-box;
+        height: 85%;
+        gap: 10px;
+    }
+
+    .modal-personal {
+        max-width: 500px;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+    }
+
+    .modal-mini h4,
+    .modal-tech h4,
+    .modal-design h4,
+    .modal-personal h4 {
+        width: 400px;
+        font-size: 22px;
+    }
+
+    .modal-text-wrap strong {
+        font-size: 10px;
+    }
+
+    .modal-text-wrap p {
+        font-size: 8px;
+    }
+
+    .modal-img-wrap {
+        margin-top: 0;
+        max-width: 200px;
+        padding-top: 20px;
+    }
+
+    .modal-btn-wrap {
+        font-size: 10px;
+    }
+}
+
+@media screen and (width <=675px) {
+    .hero-info-text h1 {
+        font-size: 16px;
+    }
+
+    .hero-info-text p {
+        font-size: 8px;
+    }
+
+    .swiper-pagination-external {
+        font-size: 14px;
+        color: #666;
+        font-weight: 500;
+    }
+
+    .about-text-wrap {
+        margin-top: 0;
+    }
+
+    .about-btn-wrap {
+        font-size: 10px;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .about-btn-wrap a {
+        width: 100px;
+    }
+
+    .portfolio-wrap {
+        margin-top: 0;
+    }
+
+    .portfolio-text h2 {
+        font-size: 16px;
+    }
+
+    .portfolio-btn-wrap {
+        margin: 0;
+    }
+
+    .portfolio-text p {
+        font-size: 8px;
+    }
+
+    #btn-pf-all {
+        font-size: 10px;
+    }
+
+    .summary-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        transition: none;
+    }
+
+    .summary-info {
+        align-items: center;
+    }
+
+    .summary-block {
+        max-width: 400px;
+    }
+
+    .summary-popup {
+        width: 300px;
+        text-wrap: balance;
+    }
+
+    .proj-img-wrap {
+        justify-content: center;
+        width: 200px;
+    }
+
+    .proj-img-wrap img {
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 4 / 4;
+        transition: none;
+    }
+
+    .project-details:hover summary {
+        padding: inherit;
+        background: inherit;
+    }
+
+    .project-details summary:hover .summary-info h5 a {
+        transition: none;
+        background: inherit;
+        color: inherit;
+        padding: inherit;
+    }
+
+    .project-details:hover .proj-img-wrap img {
+        transform: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .services-wrap {
+        margin-top: 0;
+    }
+
+    .servises-text h2 {
+        font-size: 16px;
+    }
+
+    .servises-text p {
+        font-size: 8px;
+    }
+
+    .services-block ul {
+        width: 300px;
+    }
+
+    .services-block li h4 {
+        font-size: 12px;
+    }
+
+    .quote-wrap {
+        padding: 0;
+        height: auto;
+    }
+
+    .testimonials-wrap {
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .person-testimonial {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .person-testimonial span {
+        padding-left: 0;
+    }
+
+    .quote-one,
+    .quote-two,
+    .quote-three,
+    .quote-four,
+    .quote-five,
+    .quote-six {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contacts-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .number-wrap {
+        align-items: center;
+        text-align: center;
+    }
+
+    .contacts-wrap {
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0 auto;
+    }
+
+    .contacts-text-block P {
+        font-size: 8px;
+    }
+
+    .contact-info {
+        margin-top: 50px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .contact-socials {
+        margin-top: 0;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+
+    .links-info,
+    .links-wrap>a,
+    .socials-wrap>a {
+        font-size: 10px;
+    }
+
+    .logo-star span {
+        font-size: 60px;
+    }
+
+    .menu a {
+        font-size: 18px;
+    }
+}
+
+
+/* Маленькие смартфоны (до 480px) */
+@media screen and (width <=480px) {
+    .container {
+        padding: 0px 15px;
+    }
+
+    .hero-wrap {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hero-info-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero-info-text h1 {
+        width: 100%;
+    }
+
+    .hero-info-text p {
+        width: 100%;
+    }
+
+    .swipper-wrap {
+        margin-top: 50px;
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        margin-left: 75px;
+    }
+
+    .swiper {
+        width: 100%;
+    }
+
+    .swiper-pagination-external {
+        display: none;
+    }
+
+    .about-text-wrap {
+        flex-direction: column;
+    }
+
+    .about-header {
+        max-width: 300px;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .about-text {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .about-video video {
+        width: 100%;
+    }
+
+    .page-number span {
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .page-number::after {
+        left: 20px;
+    }
+
+    .number-wrap div:nth-child(2) {
+        font-size: 8px;
+    }
+
+    .portfolio-wrap {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .portfolio-text {
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .portfolio-text p {
+        text-align: center;
+    }
+
+    .portfolio-btn-wrap {
+        margin: 0 auto;
+    }
+
+    .services-text-wrap {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .servises-text {
+        text-align: center;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .servises-text h2 {
+        margin-left: 15px;
+    }
+
+    .servises-text p {
+        width: 350px;
+    }
+
+    .svg-icon-num {
+        height: 40px;
+        width: 40px;
+    }
+
+    .services-proj-wrap {
+        flex-direction: column;
+    }
+
+    .service-img-wrap img {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .service-img-wrap::after {
+        width: 75%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .services-block {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services-block ul li h4 {
+        font-size: 14px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 10px;
+    }
+
+    .contacts-text-block p {
+        text-align: center;
+        text-wrap: balance;
+    }
+
+
+    .footer-wrap {
+        flex-direction: column;
+    }
+
+    .logo-wrapper {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .logo-wrapper h4 {
+        width: 150px;
+    }
+
+    .logo-wrapper p {
+        margin-top: 20px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .footer-main-block {
+        margin-top: 20px;
+        justify-content: space-evenly;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .links-wrap {
+        gap: 10px;
+    }
+
+    .logo-design {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        position: relative;
+        width: 100%;
+    }
+
+    .star-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+
+    .logo-star {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 24px;
+    }
+
+    .logo-star span {
+        font-size: 40px;
+    }
+
+    .logo-star svg {
+        height: 15px;
+        width: 15px;
+    }
+
+    .star-wrap svg {
+        height: 20px;
+        width: 20px;
+    }
+
+    .to-top {
+        right: 20px;
+    }
+
+    .menu a {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .menu-close {
+        font-size: 30px;
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        left: 20px;
+    }
+
+    .modal-container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        box-sizing: border-box;
+        gap: 10px;
+    }
+
+    .modal-container ul li {
+        max-width: 200px;
+        font-size: 8px;
+    }
+
+    .modal-tech,
+    .modal-design {
+        padding: 20px;
+        justify-content: space-between;
+        align-items: stretch;
+        max-width: 300px;
+        box-sizing: border-box;
+        height: auto;
+        gap: 10px;
+    }
+
+    .modal-mini {
+        padding: 10px;
+        justify-content: space-between;
+        align-items: stretch;
+        max-width: 300px;
+        box-sizing: border-box;
+        height: auto;
+        gap: 10px;
+    }
+
+    .modal-personal {
+        max-width: 300px;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+    }
+
+    .modal-mini h4,
+    .modal-tech h4,
+    .modal-design h4,
+    .modal-personal h4 {
+        width: 200px;
+        font-size: 18px;
+    }
+
+    .modal-text-wrap strong {
+        font-size: 10px;
+        margin-top: 5px;
+    }
+
+    .modal-text-wrap strong:last-child {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .modal-text-wrap p {
+        font-size: 8px;
+        margin: 10px 0px;
+    }
+
+    .modal-img-wrap {
+        margin-top: 0;
+        max-width: 150px;
+        padding-top: 10px;
+    }
+
+    .modal-btn-wrap {
+        font-size: 10px;
+    }
+
+    .menu-toggle {
+        font-size: 25px;
+        top: 0;
+    }
+}
+
+@media screen and (height<=430px) {
+	.to-top {
+		height: 40px;
+		width: 40px;
+	}
+
+
+	.about-header h2 {
+		font-size: 18px;
+	}
+
+    .logo-star span {
+        font-size: 87px;
+    }
+
+    .summary-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 5px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .project-details.hovered .summary-toggle {
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.05);
+    }
+
+    .project-details.hovered .summary-info h5 a {
+        color: #999789;
+        font-size: 14px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .summary-info {
+        display: flex;
+        flex-direction: column;
+        max-width: 200px;
+        gap: 5px;
+    }
+
+    .summary-info h5 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        font-family: 'OptimaRegular', sans-serif;
+    }
+
+    .summary-info h5 a {
+        text-decoration: none;
+        color: inherit;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        position: relative;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .summary-info h5 a:hover {
+        color: #afa49c;
+        font-size: 14px;
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .summary-info span {
+        color: #7a7a7a;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 100%;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+    }
+
+    .summary-block {
+        max-width: 500px;
+    }
+
+    .summary-describe {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 500px;
+        gap: 10px;
+    }
+
+    .summary-describe span {
+        border: 1px solid #7a7a7a;
+        text-align: center;
+        border-radius: 100px;
+        width: 120px;
+        height: 30px;
+        font-size: 8px;
+        transition: all 0.3s ease-in-out;
+        line-height: 3.7;
+        padding: 0;
+    }
+
+    .info-size {
+        font-size: 10px;
+        max-width: 400px;
+        text-wrap: balance;
+    }
+
+    .project-details.hovered .proj-img-wrap img {
+        width: 120px;
+        height: 120px;
+        transform: scale(1);
+    }
+
+    .modal-container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 0;
+        box-sizing: border-box;
+    }
+
+    .modal-text-wrap {
+        width: 300px;
+    }
+
+    .modal-container ul {
+        margin-top: 5px;
+    }
+
+    .modal-container ul li {
+        max-width: 400px;
+        font-size: 7px;
+    }
+
+    .modal-mini,
+    .modal-tech,
+    .modal-design {
+        justify-content: space-around;
+        align-items: center;
+        max-width: 600px;
+        box-sizing: border-box;
+        height: 85%;
+    }
+
+    .active-modal {
+        gap: 0px;
+        padding: 20px;
+    }
+
+    .modal-personal {
+        max-width: 400px;
+        justify-content: space-around;
+        align-items: center;
+        height: 50%;
+    }
+
+    .modal-mini h4,
+    .modal-tech h4,
+    .modal-design h4,
+    .modal-personal h4 {
+        width: 200px;
+        font-size: 10px;
+    }
+
+    .modal-text-wrap strong {
+        font-size: 8px;
+    }
+
+    .modal-text-wrap strong:last-child {
+        font-size: 8px;
+        margin-top: 10px;
+    }
+
+    .modal-text-wrap p {
+        font-size: 6px;
+        margin: 5px 0px;
+    }
+
+    .modal-img-wrap {
+        margin-top: 0;
+        max-width: 200px;
+        padding-top: 10px;
+    }
+
+    .modal-btn-wrap {
+        font-size: 8px;
+    }
+
+    .close-btn {
+        padding: 7px 10px;
+    }
+}
+
+@media screen and (width <=375px) {
+    .swipper-wrap {
+        margin-top: 50px;
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+    }
+
+    .swiper {
+        width: 100%;
+    }
+
+    .about-video video {
+        width: 100%;
+    }
+
+    .summary-describe {
+        flex-direction: column;
+        max-width: 300px;
+    }
+
+    .servises-text h2 {
+        max-width: 300px;
+    }
+
+    .servises-text p {
+        max-width: 300px;
+    }
+
+    .quote-text {
+        width: 200px;
+    }
+
+    .svg-icon-num {
+        width: 55px;
+        height: 55px;
+    }
+
+    .logo-star svg {
+        height: 15px;
+        width: 15px;
+    }
+
+    .logo-design {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .star-wrap {
+        display: none;
+    }
+
+    .modal-container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        box-sizing: border-box;
+        gap: 10px;
+    }
+
+    .modal-container ul li {
+        max-width: 200px;
+        font-size: 7px;
+    }
+
+    .modal-mini,
+    .modal-tech,
+    .modal-design {
+        justify-content: flex-start;
+        align-items: center;
+        max-width: 300px;
+        box-sizing: border-box;
+        gap: 10px;
+    }
+
+    .active-modal {
+        padding: 15px;
+        max-width: 80%;
+        height: auto;
+        gap: 15px;
+    }
+
+    .modal-personal {
+        max-width: 300px;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+    }
+
+
+    .modal-mini h4,
+    .modal-tech h4,
+    .modal-design h4,
+    .modal-personal h4 {
+        width: 200px;
+        font-size: 12px;
+    }
+
+    .modal-text-wrap strong {
+        font-size: 10px;
+        margin-top: 5px;
+    }
+
+    .modal-text-wrap strong:last-child {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .modal-text-wrap p {
+        font-size: 6px;
+        margin: 10px 0px;
+    }
+
+    .modal-img-wrap {
+        margin-top: 0;
+        max-width: 130px;
+        padding-top: 10px;
+    }
+
+    .modal-btn-wrap button {
+        font-size: 8px;
+        padding: 8px 15px;
+    }
+
+    #successModal {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    .menu-toggle {
+        font-size: 25px;
+        top: 0;
+    }
+}
+
+@media screen and (width <=320px) {
+    .swipper-wrap {
+        margin-top: 50px;
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+    }
+
+    .swiper {
+        width: 100%;
+    }
+
+
+    .contacts-text-block {
+        width: 200px;
+    }
+
+    .email-wrap form {
+        width: 200px;
+    }
+
+    .contact-info {
+        margin-left: 10px;
+    }
+
+    .quote-text {
+        font-size: 7px;
+    }
+
+    .portfolio-text h2 {
+        max-width: 250px;
+        text-align: center;
+    }
+
+    .portfolio-text p {
+        max-width: 250px;
+        text-align: center;
+    }
+
+    .servises-text {
+        margin-left: 20px;
+    }
+
+    .servises-text h2 {
+        max-width: 250px;
+    }
+
+    .servises-text p {
+        max-width: 250px;
+    }
+
+    .services-block ul {
+        width: 250px;
+    }
+
+    .services-block ul h4 {
+        font-size: 10px;
+    }
+
+    .service-img-wrap {
+        margin-top: 0;
+    }
+
+    .svg-icon-num {
+        width: 55px;
+        height: 55px;
+    }
+
+    .logo-star span {
+        font-size: 30px;
+    }
+
+    .logo-wrapper h4 {
+        margin-left: 40px;
+    }
+
+    #btn-testim-next,
+    #btn-testim-prev {
+        width: 30px;
+        height: 20px;
+    }
+
+    .modal-container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        box-sizing: border-box;
+    }
+
+    .modal-container ul li {
+        max-width: 200px;
+        font-size: 8px;
+    }
+
+    .modal-tech,
+    .modal-design {
+        padding: 10px;
+        justify-content: space-between;
+        align-items: stretch;
+        max-width: 250px;
+        box-sizing: border-box;
+        height: auto;
+        gap: 10px;
+    }
+
+    .modal-mini {
+        padding: 10px;
+        justify-content: space-between;
+        align-items: stretch;
+        max-width: 300px;
+        box-sizing: border-box;
+        height: auto;
+        gap: 10px;
+    }
+
+    .modal-personal {
+        max-width: 250px;
+        justify-content: space-between;
+        align-items: center;
+        height: 60%;
+    }
+
+    .modal-mini h4,
+    .modal-tech h4,
+    .modal-design h4,
+    .modal-personal h4 {
+        width: 200px;
+        font-size: 14px;
+    }
+
+    .modal-text-wrap strong {
+        font-size: 10px;
+        margin-top: 5px;
+    }
+
+    .modal-text-wrap strong:last-child {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .modal-text-wrap p {
+        font-size: 6px;
+        margin: 10px 0px;
+    }
+
+    .modal-img-wrap {
+        display: none;
+    }
+
+    .modal-btn-wrap {
+        font-size: 10px;
+    }
+}
+
+@media screen and (height <=360px) {
+    .modal-overlay {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (height<=320px) {
+    .modal-container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 0;
+        box-sizing: border-box;
+    }
+
+    .modal-container ul {
+        margin-top: 5px;
+    }
+
+    .modal-container ul li {
+        max-width: 300px;
+        font-size: 7px;
+    }
+
+    .modal-mini,
+    .modal-tech,
+    .modal-design {
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 600px;
+        box-sizing: border-box;
+        height: 90%;
+    }
+
+    .active-modal {
+        gap: 0px;
+        padding: 0px;
+    }
+
+    .modal-personal {
+        max-width: 400px;
+        justify-content: space-around;
+        align-items: center;
+        height: 50%;
+    }
+
+    .modal-mini h4,
+    .modal-tech h4,
+    .modal-design h4,
+    .modal-personal h4 {
+        width: 200px;
+        font-size: 10px;
+    }
+
+    .modal-text-wrap strong {
+        font-size: 8px;
+    }
+
+    .modal-text-wrap strong:last-child {
+        font-size: 8px;
+        margin-top: 10px;
+    }
+
+    .modal-text-wrap p {
+        font-size: 6px;
+        margin: 5px 0px;
+    }
+
+    .modal-img-wrap {
+        margin-top: 0;
+        max-width: 200px;
+        padding-top: 20px;
+    }
+
+    .modal-btn-wrap {
+        font-size: 8px;
+    }
+
+    .close-btn {
+        padding: 7px 10px;
+    }
+}
